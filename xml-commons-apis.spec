@@ -3,7 +3,7 @@
 
 Name:          %{?scl_prefix}xml-commons-apis
 Version:       1.4.01
-Release:       22.1%{?dist}
+Release:       22.2%{?dist}
 Summary:       APIs for DOM, SAX, and JAXP
 License:       ASL 2.0 and W3C and Public Domain
 URL:           http://xml.apache.org/commons/
@@ -100,6 +100,9 @@ rm -rf build/docs/javadoc
 %{_javadocdir}/*
 
 %changelog
+* Thu Jun 22 2017 Michael Simacek <msimacek@redhat.com> - 1.4.01-22.2
+- Mass rebuild 2017-06-22
+
 * Wed Jun 21 2017 Java Maintainers <java-maint@redhat.com> - 1.4.01-22.1
 - Automated package import and SCL-ization
 
